@@ -125,19 +125,27 @@
     border: 1px solid red;
     width: 45rem;
     height: 10rem;
-    
+    overflow: hidden;
 
 }
 .innerimg1 h1{
   animation: ravi 0.6s ease-in;
+  text-align: center;
+  margin-top: -20px;
 }
 @keyframes ravi{
   0%{
     opacity: 0;
   }
+50%{
+    opacity: 1;
+    margin-top: -10px;
+    transition: 0.6s;
+  }
   100%{
     opacity: 1;
-    transition: 0.6s;
+    margin-top: -0px;
+    transition: 0.8s;
   }
 }
  /* filename: style.css */
