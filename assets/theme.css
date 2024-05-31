@@ -50,7 +50,7 @@ background-color: rgb(182, 227, 241);
 display: flex;
 justify-content: center;
 align-items: center;
-
+height: 30px;
 
  }
  .announce h3{
