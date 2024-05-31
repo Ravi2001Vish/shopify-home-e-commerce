@@ -87,12 +87,13 @@
  
  <div class="review">
    <div class="review__items">
-       <img src="{{'ravi1.jpg' |  asset_url}}"  alt="" height="" width=""/>
+       <img src="{{'ravi1.jpg' |  asset_url}}" class="img1"   alt="" height="" width=""/>
+       <div class="innerimg1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deserunt natus impedit laborum quis alias esse doloremque voluptates dolore nam officia repellendus, mollitia hic eum cum ut illum harum corrupti.</div>
     
    </div>
    <div class="review__items">
     <img src="{{'one.png' |  asset_url}}"  alt="" height="" width=""/>
-    <div class="secondimg">hiii</div>
+    
      
    </div>
    <div class="review__items">
@@ -111,7 +112,17 @@
  </div>
  </section>
 <style>
+.img1{
+  position: relative;
 
+}
+.innerimg1{
+  position: absolute;
+  top: 0;
+  left:0;
+  color: aliceblue;
+  font-size: 30px;
+}
  /* filename: style.css */
 .review {
 	
