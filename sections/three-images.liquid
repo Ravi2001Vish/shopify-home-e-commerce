@@ -80,11 +80,38 @@
 </style>
 
  {% endcomment %}
- <!DOCTYPE html>
- <html lang="en">
- <head>
-   <title>review carousel using JavaScript</title>
+<section>
+
+
+
+ 
+ <div class="review">
+   <div class="review__items">
+       <img src="{{'ravi1.jpg' |  asset_url}}"  alt="" height="" width=""/>
+    
+   </div>
+   <div class="review__items">
+       <img src=
+ "https://media.geeksforgeeks.org/wp-content/uploads/20210101144014/gfglogo.png"  alt=""   height="50px" width="50px"/>
+     
+   </div>
+   <div class="review__items">
+<img src="https://media.geeksforgeeks.org/img-practice/courses/GfG_Logo.png" alt=""  height="50px" width="50px"/> 
+     
+   </div>
+   <div class="review__button">
+       <button id="prev" onclick="previousReview()">
+           PREV
+       </button>
+ 
+       <button id="next" onclick="nextReview()">
+           NEXT
+       </button>
+   </div>
+ </div>
+ </section>
 <style>
+
   /* filename: style.css */
 .review {
 	background: rgb(145, 226, 188);
@@ -139,33 +166,6 @@
 }
 
 </style>
- </head>
- 
- <div class="review">
-   <div class="review__items">
-       <img src="{{'ravi1.jpg' |  asset_url}}"  alt="" height="" width=""/>
-    
-   </div>
-   <div class="review__items">
-       <img src=
- "https://media.geeksforgeeks.org/wp-content/uploads/20210101144014/gfglogo.png"  alt=""   height="50px" width="50px"/>
-     
-   </div>
-   <div class="review__items">
-<img src="https://media.geeksforgeeks.org/img-practice/courses/GfG_Logo.png" alt=""  height="50px" width="50px"/> 
-     
-   </div>
-   <div class="review__button">
-       <button id="prev" onclick="previousReview()">
-           PREV
-       </button>
- 
-       <button id="next" onclick="nextReview()">
-           NEXT
-       </button>
-   </div>
- </div>
- </html>
  <script>
   //Filename: script.js
 let rev = 0;
