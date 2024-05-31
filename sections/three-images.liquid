@@ -9,7 +9,7 @@
         <h1></h1>
       </div>
     {%- endif -%}
-    {% comment %} {%- if section.settings.image2 != blank -%}
+    {%- if section.settings.image2 != blank -%}
       <div class="two-user">
         <h1></h1>
       </div>
@@ -26,12 +26,14 @@
       <div class="three">
         <h1></h1>
       </div>
-    {%- endif -%} {% endcomment %}
+    {%- endif -%}
   </div>
 </section>
 
 <style>
- 
+  .three-images-wrapper {
+    display: flex;
+  }
 
   .one {
     background-image: url("{{ 'one.png' | asset_url }}");
@@ -47,7 +49,34 @@
     background-size: cover;
     background-position: center;
   }
-
+  .two {
+    background-image: url("{{ 'two.png' | asset_url }}");
+    width: 33.333%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .two-user {
+    background-image: url("{{ section.settings.image2 | image_url }}");
+    width: 33.333%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .three {
+    background-image: url("{{ 'three.png' | asset_url }}");
+    width: 33.333%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .three-user {
+    background-image: url("{{ section.settings.image3 | image_url }}");
+    width: 33.333%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
 </style>
 
 {% schema %}
