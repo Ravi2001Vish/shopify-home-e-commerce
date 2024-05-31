@@ -47,5 +47,8 @@ body {
  }
  .announce{
    background-color: rgb(88, 102, 232);
-   
+
+ }
+ header.nav{
+   background-color: #0e1b4d;
  }
