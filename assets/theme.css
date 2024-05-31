@@ -45,3 +45,7 @@ body {
    align-items: center;
    height: 100vh; /* Set the height to the full viewport height */
  }
+ .announce{
+   background-color: rgb(88, 102, 232);
+   
+ }
