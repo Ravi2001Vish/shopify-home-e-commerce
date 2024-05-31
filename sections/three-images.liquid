@@ -88,7 +88,15 @@
  <div class="review">
    <div class="review__items">
        <img src="{{'ravi1.jpg' |  asset_url}}" class="img1"   alt="" height="" width=""/>
-       <div class="innerimg1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deserunt natus impedit laborum quis alias esse doloremque voluptates dolore nam officia repellendus, mollitia hic eum cum ut illum harum corrupti.</div>
+       <div class="innerimg1">
+        <div>Escape</div> 
+<div> 
+  <span>into amazing experiences</span>
+</div>
+
+
+<p>a css3 animation demo</p>
+       </div>
     
    </div>
    <div class="review__items">
@@ -112,6 +120,58 @@
  </div>
  </section>
 <style>
+div {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+div:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+
+p {
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
+
 
 .innerimg1{
   position: absolute;
