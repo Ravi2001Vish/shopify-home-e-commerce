@@ -75,12 +75,11 @@ padding: 8px;
  .div1{
    color: #dee2e6;
  }
- /* .divtwo  ul li{
-color: #b4b5b6;
-text-decoration: none;
-
- }
- .divthree  ul li{
-   color: #b4b5b6;
-   text-decoration: none;
-    } */
+.divthree{
+   text-align: center;
+   color: white;
+}
+.divtwo{
+   text-align: center;
+   color: white;
+}
