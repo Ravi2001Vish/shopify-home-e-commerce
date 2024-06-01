@@ -73,6 +73,11 @@ height: 30px;
 text-decoration: none;
 padding: 8px;
 }
+.footer ul li:hover{
+   color: red;
+   transition: 0.6s;
+   transform: scale(1.1);
+}
  .div1{
    color: #dee2e6;
    margin-top: -6rem;
