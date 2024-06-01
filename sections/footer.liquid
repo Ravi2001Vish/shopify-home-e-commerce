@@ -36,15 +36,7 @@
       </div>
 
     {% else %}
-      {% comment %}
-        <div>
-          {% for block in section.blocks %}
-            <li>
-              <a href="{{ block.settings.link }}">{{ block.settings.text | escape }}</a>
-            </li>
-          {% endfor %}
-        </div>
-      {% endcomment %}
+   
       {% for block in section.blocks %}
         <div>
           <li>
@@ -68,6 +60,7 @@
     <p>Terms of Sale</p>
     <p>Terms of Use</p>
     <p>Privacy Policy</p>
+    <p>ravi</p>
   </div>
 </footer>
 
@@ -90,6 +83,7 @@
   }
   .footer-sec-2 p {
     padding: 10px
+   
   }
 </style>
 
