@@ -66,6 +66,9 @@ height: 30px;
    justify-content: space-evenly;
     
  }
+ *{
+   text-decoration: none;
+ }
  .div1{
    color: #dee2e6;
  }
