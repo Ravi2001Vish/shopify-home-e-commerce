@@ -57,3 +57,12 @@ height: 30px;
    color: #666164;
    font-family: cursive;
  }
+
+ .footer{
+   width:100%;
+   background-color: #515d6a;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   text-align: center;
+ }
