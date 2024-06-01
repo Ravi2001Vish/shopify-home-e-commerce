@@ -99,4 +99,11 @@ padding: 8px;
 .last input{
    height: 35px;
    outline: none;
+   width: 19rem;
+}
+.last h3{
+   color: white;
+}
+.last p{
+   color: white;
 }
