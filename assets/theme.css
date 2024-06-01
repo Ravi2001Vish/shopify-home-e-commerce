@@ -64,5 +64,5 @@ height: 30px;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
-   text-align: center;
+   text-align: center; color: rgba(255, 255, 255, 0.6);
  }
