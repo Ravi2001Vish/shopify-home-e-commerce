@@ -86,3 +86,9 @@ padding: 8px;
 .last{
    border: 1px solid red;
 }
+.footerbtn{
+   background-color: red;
+   color: white;
+   width: 100px;
+   height: 30px;
+}
